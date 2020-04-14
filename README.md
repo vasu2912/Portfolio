@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Portfolio
 My portfolio website made with React Js
 =======
