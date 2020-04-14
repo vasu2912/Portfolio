@@ -56,7 +56,7 @@ html {
 }
 
 .text {
-  font-size: 10vw;
+  font-size: 12vw;
   line-height: 1.25;
   font-weight: 900;
   font-style: italic;
@@ -89,17 +89,7 @@ html {
   box-shadow: -8px -8px 16px rgba(255, 255, 255, 0.5),
     8px 8px 16px rgba(167, 157, 157, 0.5);
 }
-blockquote,
-dl,
-dd,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-hr,
-figure,
+
 p,
 pre {
   margin: 0px;
@@ -109,6 +99,10 @@ pre {
   font-size: 2rem;
   font-family: "Inter", sans-serif;
   margin-bottom: 1.5rem;
+}
+#fill {
+  margin-left: 2.5rem;
+  margin-bottom: 2rem;
 }
 
 .links {
@@ -181,7 +175,7 @@ a:active {
 }
 
 .emaillink {
-  webkit-transition: all 0.15s ease-out;
+  -webkit-transition: all 0.15s ease-out;
   transition: all 0.15s ease-out;
   cursor: pointer;
   -webkit-text-decoration: none;
@@ -227,7 +221,7 @@ a:active {
   outline: none;
   height: 2.5rem;
   min-width: 2.5rem;
-  font-size: 1rem;
+  font-size: 2rem;
   padding-left: 1rem;
   padding-right: 1rem;
   background-color: #000;
