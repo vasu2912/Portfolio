@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-[#000000] text-[#FFFFFF]">
       <Navigation />
-      <main className="container mx-auto">
+      <main className="container mx-auto px-4 sm:px-0">
         <Header />
         <Education />
         <Experience />

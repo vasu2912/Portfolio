@@ -21,7 +21,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="max-w-2xl mx-auto px-4 py-8">
+    <footer className="max-w-2xl mx-auto px-3 sm:px-4 py-6 sm:py-8">
       <div className="flex justify-center space-x-6 mb-6">
         {socialLinks.map((link) => (
           <Link
@@ -29,7 +29,7 @@ export default function Footer() {
             href={link.href}
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-gray-400 transition-colors"
+            className="hover:text-gray-400 transition-colors border-b-2 border-transparent hover:border-gray-400"
           >
             ↗ {link.label}
           </Link>

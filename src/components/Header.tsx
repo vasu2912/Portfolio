@@ -1,8 +1,11 @@
 export default function Header() {
   return (
-    <header id="about" className="max-w-2xl mx-auto px-4 py-12 scroll-mt-20">
+    <header
+      id="about"
+      className="max-w-2xl mx-auto px-3 sm:px-4 py-8 sm:py-12 scroll-mt-20"
+    >
       <h1 className="text-3xl font-bold mb-6 inline-block border-b-2 border-gray-800 pb-2">
-        My Portfolio
+        About Me
       </h1>
       <p className="text-gray-300 leading-relaxed">
         Dynamic Software Developer with a strong foundation in I.T and a proven

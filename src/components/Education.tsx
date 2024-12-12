@@ -24,7 +24,7 @@ export default function Education() {
   return (
     <section
       id="education"
-      className="max-w-2xl mx-auto px-4 py-8 scroll-mt-20"
+      className="max-w-2xl mx-auto px-3 sm:px-4 py-6 sm:py-8 scroll-mt-20"
     >
       <h2 className="text-2xl font-bold mb-6 inline-block border-b-2 border-gray-800 pb-2">
         Education
